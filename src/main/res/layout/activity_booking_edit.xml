@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_2025_12_19_09_18_39"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Бронирование"
+            android:textSize="20sp"
+            android:textColor="#F0ECEC"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Клиент"
+            android:textColorHint="#F6F1F1" />
+
+        <EditText
+            android:id="@+id/etRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#F6F1F1"
+            android:hint="Помещение" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#F6F1F1"
+            android:hint="Дата" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#F6F1F1"
+            android:hint="Время" />
+
+        <EditText
+            android:id="@+id/etHourPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Цена за час (₽)"
+            android:textColorHint="#F6F1F1"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Длительность (часов)"
+            android:textColorHint="#F6F1F1"
+            android:inputType="number" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Услуги в брони"
+            android:textColor="#F0ECEC"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAddServiceToBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F0ECEC"
+            android:backgroundTint="#C2382525"
+            android:text="Добавить услугу" />
+
+        <ListView
+            android:id="@+id/listBookingServices"
+            style="@style/Widget.AppCompat.ListView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:cacheColorHint="#FBF6F6"
+            android:textColor="#FDFAFA" />
+
+        <TextView
+            android:id="@+id/tvRoomPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Аренда: 0 ₽"
+            android:textColor="#F0ECEC"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvServicesPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Услуги: 0 ₽"
+            android:textColor="#F0ECEC"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Итого: 0 ₽"
+            android:textSize="18sp"
+            android:textColor="#F0ECEC"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSaveBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#C2382525"
+            android:textColor="#F0ECEC"
+            android:text="Сохранить" />
+    </LinearLayout>
+</ScrollView>
+
+

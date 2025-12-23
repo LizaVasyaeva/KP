@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_2025_12_19_09_18_39"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Статус помещений"
+        android:textColor="#F0ECEC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#C2382525"
+        android:textColor="#F0ECEC"
+        android:text="Нажмите на помещение, чтобы изменить статус" />
+
+    <ListView
+        android:id="@+id/listRooms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#C2382525"
+        android:cacheColorHint="#F6F0F0"
+        android:textColor="#F0ECEC" />
+</LinearLayout>

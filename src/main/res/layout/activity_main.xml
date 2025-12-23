@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_2025_12_19_09_18_39"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnBookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C2382525"
+        android:drawableTint="#FFFBFB"
+        android:text="Бронирования"
+        android:textColor="#F0ECEC" />
+
+    <Button
+        android:id="@+id/btnServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C2382525"
+        android:layout_marginTop="16dp"
+        android:textColor="#F0ECEC"
+        android:text="Услуги" />
+
+    <Button
+        android:id="@+id/btnRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C2382525"
+        android:layout_marginTop="16dp"
+        android:textColor="#F0ECEC"
+        android:text="Свободные помещения" />
+</LinearLayout>
